@@ -1,3 +1,8 @@
+gh-pages: https://dmitruvasilev.github.io/test_for_Shakuro/
+
+## Refactoring
+
+```
 findIndexString = (string, a, b) => {
     try {
         if (typeof string !== 'string') {
@@ -19,7 +24,28 @@ findIndexString = (string, a, b) => {
         console.error(e.message);
     }
 }
+```
 
+```
+"dependencies": {
+    "normalize.css": "^8.0.1", // нормализация стилей
+    "prop-types": "^15.6.1", // проверка типов
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0", // точка входа в DOM и средство рендеринга сервера для React
+    "react-scripts": "2.1.3" // солянка react-create-app
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0", // Популярный конфиг для eslint
+    "eslint-plugin-import": "^2.7.0", // плагин для поддержки синтаксиса импорта / экспорта
+    "eslint-plugin-jsx-a11y": "^6.1.2", // eslint правила для элементов JSX
+    "eslint-plugin-react": "^7.12.0", // eslint правила для реакта
+    "gh-pages": "^2.0.1", // хостинг
+    "husky": "^1.3.1", // Пре коммит
+    "lint-staged": "^8.1.0", // Запускает поочередно линтеры
+    "prettier-eslint-cli": "^4.7.1", // Использует конфиг EsLint для Prettier
+    "react-test-renderer": "^16.2.0" // для тестов
+  },
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
