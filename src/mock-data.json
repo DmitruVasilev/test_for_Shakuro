@@ -1,0 +1,19 @@
+{
+  "operators": [
+    {
+      "id": "1",
+      "title": "MTS",
+      "icon_url": "https://citycard.ru/i/landing-features/operator-mts.svg"
+    },
+    {
+      "id": "2",
+      "title": "Megafon",
+      "icon_url": "https://citycard.ru/i/landing-features/operator-megafon.svg"
+    },
+    {
+      "id": "3",
+      "title": "Beeline",
+      "icon_url": "https://citycard.ru/i/landing-features/beeline.svg"
+    }
+  ]
+}
