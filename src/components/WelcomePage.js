@@ -37,6 +37,7 @@ const OperatorLink = styled(Link)`
   color: #3ac831;
   border-radius: 5px;
   background: white;
+  cursor: pointer;
   transition: 0.5s ease;
   &:hover,
   &:focus {
