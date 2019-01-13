@@ -1,13 +1,15 @@
 {
-  "main.css": "/test_for_Shakuro/static/css/main.66249b1a.chunk.css",
-  "main.js": "/test_for_Shakuro/static/js/main.cd6114ef.chunk.js",
-  "main.js.map": "/test_for_Shakuro/static/js/main.cd6114ef.chunk.js.map",
-  "static/js/1.ac5061da.chunk.js": "/test_for_Shakuro/static/js/1.ac5061da.chunk.js",
-  "static/js/1.ac5061da.chunk.js.map": "/test_for_Shakuro/static/js/1.ac5061da.chunk.js.map",
+  "main.css": "/test_for_Shakuro/static/css/main.1c192542.chunk.css",
+  "main.js": "/test_for_Shakuro/static/js/main.88859ee1.chunk.js",
+  "main.js.map": "/test_for_Shakuro/static/js/main.88859ee1.chunk.js.map",
+  "static/css/1.2dc8a515.chunk.css": "/test_for_Shakuro/static/css/1.2dc8a515.chunk.css",
+  "static/js/1.9c946c37.chunk.js": "/test_for_Shakuro/static/js/1.9c946c37.chunk.js",
+  "static/js/1.9c946c37.chunk.js.map": "/test_for_Shakuro/static/js/1.9c946c37.chunk.js.map",
   "runtime~main.js": "/test_for_Shakuro/static/js/runtime~main.19f2fbce.js",
   "runtime~main.js.map": "/test_for_Shakuro/static/js/runtime~main.19f2fbce.js.map",
-  "static/css/main.66249b1a.chunk.css.map": "/test_for_Shakuro/static/css/main.66249b1a.chunk.css.map",
+  "static/css/main.1c192542.chunk.css.map": "/test_for_Shakuro/static/css/main.1c192542.chunk.css.map",
+  "static/css/1.2dc8a515.chunk.css.map": "/test_for_Shakuro/static/css/1.2dc8a515.chunk.css.map",
   "index.html": "/test_for_Shakuro/index.html",
-  "precache-manifest.075b801b5f17a46fedc4ba23785e57c9.js": "/test_for_Shakuro/precache-manifest.075b801b5f17a46fedc4ba23785e57c9.js",
+  "precache-manifest.6bef25565d008bc4037aec27b737ef72.js": "/test_for_Shakuro/precache-manifest.6bef25565d008bc4037aec27b737ef72.js",
   "service-worker.js": "/test_for_Shakuro/service-worker.js"
 }
