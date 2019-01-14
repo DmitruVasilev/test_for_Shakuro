@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PayPage /> renders correctly 1`] = `
+Array [
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    Назад
+  </a>,
+  <h1
+    className="sc-bdVaJa lmOnTH"
+  >
+    <img
+      alt="MTS"
+      src="https://citycard.ru/i/landing-features/operator-mts.svg"
+    />
+    <span
+      className="sc-bwzfXH cgXZhI"
+    >
+      MTS
+    </span>
+  </h1>,
+  <form
+    className="sc-htpNat bhpHJD"
+    onSubmit={[Function]}
+  >
+    <label
+      className="sc-EHOje kDcnGL"
+      htmlFor="phone"
+    >
+      Введите номер телефона:
+      <br />
+      <input
+        className="sc-ifAKCX duHYHE"
+        id="phone"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        onPaste={[Function]}
+        type="phone"
+        value=""
+      />
+    </label>
+    <span
+      className="sc-bZQynM hhxum"
+    >
+      
+    </span>
+    <label
+      className="sc-EHOje kDcnGL"
+      htmlFor="number"
+    >
+      Введите сумму:
+      <br />
+      <input
+        className="sc-bxivhb jMoerp"
+        id="number"
+        onChange={[Function]}
+        type="number"
+        value=""
+      />
+      <span
+        className="sc-gzVnrw eaBHMQ"
+      >
+        ₽
+      </span>
+    </label>
+    <span
+      className="sc-bZQynM hhxum"
+    >
+      
+    </span>
+    <button
+      className="sc-htoDjs kQZvSM"
+      disabled=""
+      type="submit"
+    >
+      Оплатить
+    </button>
+    
+  </form>,
+]
+`;

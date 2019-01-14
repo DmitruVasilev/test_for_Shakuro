@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OperatorList /> renders correctly 1`] = `
+<h1
+  className="sc-bdVaJa lmOnTH"
+>
+  <img
+    alt="MTS"
+    src="https://citycard.ru/i/landing-features/operator-mts.svg"
+  />
+  <span
+    className="sc-bwzfXH cgXZhI"
+  >
+    MTS
+  </span>
+</h1>
+`;

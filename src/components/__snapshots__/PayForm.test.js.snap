@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PayForm /> renders correctly 1`] = `
+<form
+  className="sc-bdVaJa bcSwbK"
+  onSubmit={[Function]}
+>
+  <label
+    className="sc-bxivhb dTCVlK"
+    htmlFor="phone"
+  >
+    Введите номер телефона:
+    <br />
+    <input
+      className="sc-htpNat iJpthS"
+      id="phone"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      type="phone"
+      value=""
+    />
+  </label>
+  <span
+    className="sc-ifAKCX jybjeP"
+  >
+    
+  </span>
+  <label
+    className="sc-bxivhb dTCVlK"
+    htmlFor="number"
+  >
+    Введите сумму:
+    <br />
+    <input
+      className="sc-bwzfXH jQNUeE"
+      id="number"
+      onChange={[Function]}
+      type="number"
+      value=""
+    />
+    <span
+      className="sc-EHOje bpNFbJ"
+    >
+      ₽
+    </span>
+  </label>
+  <span
+    className="sc-ifAKCX jybjeP"
+  >
+    
+  </span>
+  <button
+    className="sc-bZQynM KPNCz"
+    disabled=""
+    type="submit"
+  >
+    Оплатить
+  </button>
+  
+</form>
+`;
