@@ -8,13 +8,13 @@ import { operators } from "../mock-data";
 const Caption = styled.h1`
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;
 
 const OperatorTitle = styled.span`
-  margin: 0 0 0 10px;
+  margin: 0;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1;
 `;
 
@@ -23,25 +23,24 @@ const Form = styled.form`
 `;
 
 const Input = styled.input`
-  margin-left: 10px;
+  margin-top: 10px;
 `;
 
 const InputPhone = styled(InputMask)`
-  margin-left: 10px;
+  margin-top: 10px;
 `;
 
 const Label = styled.label`
   display: block;
-  margin: 0 0 10px 0;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1;
 `;
 
 const ErrorMessage = styled.span`
   display: block;
-  margin: 10px 0;
-  color: ${props => props.status || "red"};
+  margin: ${props => props.pushTop || "0 0 10px"};
+  color: ${props => props.statusColor || "red"};
   font-weight: bold;
   font-size: 16px;
   line-height: 1;
@@ -63,6 +62,7 @@ const Submit = styled.button`
   background: white;
   transition: 0.5s ease;
   cursor: pointer;
+  outline: none;
   &:disabled {
     cursor: default;
     background: rgba(206, 206, 206, 0.3);
@@ -194,6 +194,7 @@ class PayPage extends React.Component {
         <Form onSubmit={this.onHandleSubmit}>
           <Label htmlFor="phone">
             Введите номер телефона:
+            <br />
             <InputPhone
               id="phone"
               type="phone"
@@ -205,6 +206,7 @@ class PayPage extends React.Component {
           <ErrorMessage>{phone_value_error}</ErrorMessage>
           <Label htmlFor="number">
             Введите сумму:
+            <br />
             <Input
               id="number"
               type="number"
@@ -218,7 +220,10 @@ class PayPage extends React.Component {
             Оплатить
           </Submit>
           {statusMessage && (
-            <ErrorMessage status={submitSuccess && "green"}>
+            <ErrorMessage
+              pushTop="10px 0 0"
+              statusColor={submitSuccess && "green"}
+            >
               {statusMessage}
             </ErrorMessage>
           )}

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OperatorList /> renders correctly 1`] = `
+<ul
+  className="sc-bdVaJa fQzoeR"
+>
+  <li
+    className="sc-bwzfXH ixeKvC"
+  >
+    <img
+      alt="MTS"
+      src="https://citycard.ru/i/landing-features/operator-mts.svg"
+    />
+    <h3
+      className="sc-htpNat gsjPjQ"
+    >
+      MTS
+    </h3>
+    <a
+      className="sc-bxivhb jnXvEC"
+      href="/pay_mobile/1"
+      onClick={[Function]}
+    >
+      Оплатить
+    </a>
+  </li>
+  <li
+    className="sc-bwzfXH ixeKvC"
+  >
+    <img
+      alt="Megafon"
+      src="https://citycard.ru/i/landing-features/operator-megafon.svg"
+    />
+    <h3
+      className="sc-htpNat gsjPjQ"
+    >
+      Megafon
+    </h3>
+    <a
+      className="sc-bxivhb jnXvEC"
+      href="/pay_mobile/2"
+      onClick={[Function]}
+    >
+      Оплатить
+    </a>
+  </li>
+  <li
+    className="sc-bwzfXH ixeKvC"
+  >
+    <img
+      alt="Beeline"
+      src="https://citycard.ru/i/landing-features/beeline.svg"
+    />
+    <h3
+      className="sc-htpNat gsjPjQ"
+    >
+      Beeline
+    </h3>
+    <a
+      className="sc-bxivhb jnXvEC"
+      href="/pay_mobile/3"
+      onClick={[Function]}
+    >
+      Оплатить
+    </a>
+  </li>
+</ul>
+`;
